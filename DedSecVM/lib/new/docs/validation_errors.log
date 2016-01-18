@@ -1,0 +1,3 @@
+Text for example in flare.physics:Physics/test is not valid.
+org.xml.sax.SAXParseException: The reference to entity "gt" must end with the ';' delimiter.
+

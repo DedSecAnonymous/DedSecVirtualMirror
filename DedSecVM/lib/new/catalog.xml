@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-components />
+    <feature-files />
+  </features>
+  <components>
+    <component className="deng.fzip:FZip" name="deng.fzip.FZip" uri="flare"  />
+    <component className="deng.fzip:FZipErrorEvent" name="deng.fzip.FZipErrorEvent" uri="flare"  />
+    <component className="deng.fzip:FZipEvent" name="deng.fzip.FZipEvent" uri="flare"  />
+    <component className="deng.fzip:FZipFile" name="deng.fzip.FZipFile" uri="flare"  />
+    <component className="deng.fzip:FZipLibrary" name="deng.fzip.FZipLibrary" uri="flare"  />
+    <component className="deng.utils:ChecksumUtil" name="deng.utils.ChecksumUtil" uri="flare"  />
+    <component className="flare.basic:Scene3D" name="flare.basic.Scene3D" uri="flare"  />
+    <component className="flare.basic:Viewer3D" name="flare.basic.Viewer3D" uri="flare"  />
+    <component className="flare.collisions:CollisionInfo" name="flare.collisions.CollisionInfo" uri="flare"  />
+    <component className="flare.collisions:MouseCollision" name="flare.collisions.MouseCollision" uri="flare"  />
+    <component className="flare.collisions:RayCollision" name="flare.collisions.RayCollision" uri="flare"  />
+    <component className="flare.collisions:SphereCollision" name="flare.collisions.SphereCollision" uri="flare"  />
+    <component className="flare.core:Boundings3D" name="flare.core.Boundings3D" uri="flare"  />
+    <component className="flare.core:Camera3D" name="flare.core.Camera3D" uri="flare"  />
+    <component className="flare.core:Easing3D" name="flare.core.Easing3D" uri="flare"  />
+    <component className="flare.core:Frame3D" name="flare.core.Frame3D" uri="flare"  />
+    <component className="flare.core:IComponent" name="flare.core.IComponent" uri="flare"  />
+    <component className="flare.core:IDrawable" name="flare.core.IDrawable" uri="flare"  />
+    <component className="flare.core:Knot3D" name="flare.core.Knot3D" uri="flare"  />
+    <component className="flare.core:Label3D" name="flare.core.Label3D" uri="flare"  />
+    <component className="flare.core:Light3D" name="flare.core.Light3D" uri="flare"  />
+    <component className="flare.core:Lines3D" name="flare.core.Lines3D" uri="flare"  />
+    <component className="flare.core:Mesh3D" name="flare.core.Mesh3D" uri="flare"  />
+    <component className="flare.core:MeshBatch3D" name="flare.core.MeshBatch3D" uri="flare"  />
+    <component className="flare.core:ParticleInit3D" name="flare.core.ParticleInit3D" uri="flare"  />
+    <component className="flare.core:Particles3D" name="flare.core.Particles3D" uri="flare"  />
+    <component className="flare.core:Pivot3D" name="flare.core.Pivot3D" uri="flare"  />
+    <component className="flare.core:Poly3D" name="flare.core.Poly3D" uri="flare"  />
+    <component className="flare.core:ShadowProjector3D" name="flare.core.ShadowProjector3D" uri="flare"  />
+    <component className="flare.core:Shape3D" name="flare.core.Shape3D" uri="flare"  />
+    <component className="flare.core:Spline3D" name="flare.core.Spline3D" uri="flare"  />
+    <component className="flare.core:Surface3D" name="flare.core.Surface3D" uri="flare"  />
+    <component className="flare.core:Texture3D" name="flare.core.Texture3D" uri="flare"  />
+    <component className="flare.events:MouseEvent3D" name="flare.events.MouseEvent3D" uri="flare"  />
+    <component className="flare.flsl:FLSL" name="flare.flsl.FLSL" uri="flare"  />
+    <component className="flare.flsl:FLSLCompiler" name="flare.flsl.FLSLCompiler" uri="flare"  />
+    <component className="flare.flsl:FLSLDisassembler" name="flare.flsl.FLSLDisassembler" uri="flare"  />
+    <component className="flare.flsl:FLSLEngine" name="flare.flsl.FLSLEngine" uri="flare"  />
+    <component className="flare.flsl:FLSLError" name="flare.flsl.FLSLError" uri="flare"  />
+    <component className="flare.flsl:FLSLFilter" name="flare.flsl.FLSLFilter" uri="flare"  />
+    <component className="flare.flsl:FLSLInput" name="flare.flsl.FLSLInput" uri="flare"  />
+    <component className="flare.flsl:FLSLMaterial" name="flare.flsl.FLSLMaterial" uri="flare"  />
+    <component className="flare.flsl:FLSLMatrix" name="flare.flsl.FLSLMatrix" uri="flare"  />
+    <component className="flare.flsl:FLSLParam" name="flare.flsl.FLSLParam" uri="flare"  />
+    <component className="flare.flsl:FLSLParser" name="flare.flsl.FLSLParser" uri="flare"  />
+    <component className="flare.flsl:FLSLProgram" name="flare.flsl.FLSLProgram" uri="flare"  />
+    <component className="flare.flsl:FLSLRegister" name="flare.flsl.FLSLRegister" uri="flare"  />
+    <component className="flare.flsl:FLSLSampler" name="flare.flsl.FLSLSampler" uri="flare"  />
+    <component className="flare.flsl:FLSLScope" name="flare.flsl.FLSLScope" uri="flare"  />
+    <component className="flare.flsl:FLSLShader" name="flare.flsl.FLSLShader" uri="flare"  />
+    <component className="flare.flsl:FLSLSurface" name="flare.flsl.FLSLSurface" uri="flare"  />
+    <component className="flare.flsl:FLSLToken" name="flare.flsl.FLSLToken" uri="flare"  />
+    <component className="flare.flsl:FLSLTokenizer" name="flare.flsl.FLSLTokenizer" uri="flare"  />
+    <component className="flare.loaders:ByteArrayLoader" name="flare.loaders.ByteArrayLoader" uri="flare"  />
+    <component className="flare.loaders:Chunk" name="flare.loaders.Chunk" uri="flare"  />
+    <component className="flare.loaders:Collada" name="flare.loaders.Collada" uri="flare"  />
+    <component className="flare.loaders:ColladaLoader" name="flare.loaders.ColladaLoader" uri="flare"  />
+    <component className="flare.loaders:Flare3DLoader" name="flare.loaders.Flare3DLoader" uri="flare"  />
+    <component className="flare.loaders:Flare3DLoader1" name="flare.loaders.Flare3DLoader1" uri="flare"  />
+    <component className="flare.loaders:Flare3DLoader2" name="flare.loaders.Flare3DLoader2" uri="flare"  />
+    <component className="flare.loaders:Flare3DLoader3" name="flare.loaders.Flare3DLoader3" uri="flare"  />
+    <component className="flare.loaders:Flare3DLoaderMaterial" name="flare.loaders.Flare3DLoaderMaterial" uri="flare"  />
+    <component className="flare.loaders:SWFLoader" name="flare.loaders.SWFLoader" uri="flare"  />
+    <component className="flare.loaders:ZF3DLoader" name="flare.loaders.ZF3DLoader" uri="flare"  />
+    <component className="flare.materials.filters:AlphaMaskFilter" name="flare.materials.filters.AlphaMaskFilter" uri="flare"  />
+    <component className="flare.materials.filters:ColorFilter" name="flare.materials.filters.ColorFilter" uri="flare"  />
+    <component className="flare.materials.filters:ColorMatrixFilter" name="flare.materials.filters.ColorMatrixFilter" uri="flare"  />
+    <component className="flare.materials.filters:ColorTransformFilter" name="flare.materials.filters.ColorTransformFilter" uri="flare"  />
+    <component className="flare.materials.filters:CubeMapFilter" name="flare.materials.filters.CubeMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:EnvironmentMapFilter" name="flare.materials.filters.EnvironmentMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:FlipNormalsFilter" name="flare.materials.filters.FlipNormalsFilter" uri="flare"  />
+    <component className="flare.materials.filters:FogFilter" name="flare.materials.filters.FogFilter" uri="flare"  />
+    <component className="flare.materials.filters:LightFilter" name="flare.materials.filters.LightFilter" uri="flare"  />
+    <component className="flare.materials.filters:LightMapFilter" name="flare.materials.filters.LightMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:NormalMapFilter" name="flare.materials.filters.NormalMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:NullFilter" name="flare.materials.filters.NullFilter" uri="flare"  />
+    <component className="flare.materials.filters:PlanarMapFilter" name="flare.materials.filters.PlanarMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:ReflectionMapFilter" name="flare.materials.filters.ReflectionMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:SelfColorFilter" name="flare.materials.filters.SelfColorFilter" uri="flare"  />
+    <component className="flare.materials.filters:SkinTransformFilter" name="flare.materials.filters.SkinTransformFilter" uri="flare"  />
+    <component className="flare.materials.filters:SpecularFilter" name="flare.materials.filters.SpecularFilter" uri="flare"  />
+    <component className="flare.materials.filters:SpecularMapFilter" name="flare.materials.filters.SpecularMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:TextureMapFilter" name="flare.materials.filters.TextureMapFilter" uri="flare"  />
+    <component className="flare.materials.filters:TextureMaskFilter" name="flare.materials.filters.TextureMaskFilter" uri="flare"  />
+    <component className="flare.materials.filters:TransformFilter" name="flare.materials.filters.TransformFilter" uri="flare"  />
+    <component className="flare.materials.filters:VertexColorFilter" name="flare.materials.filters.VertexColorFilter" uri="flare"  />
+    <component className="flare.materials:Material3D" name="flare.materials.Material3D" uri="flare"  />
+    <component className="flare.materials:NullMaterial" name="flare.materials.NullMaterial" uri="flare"  />
+    <component className="flare.materials:QuadMaterial" name="flare.materials.QuadMaterial" uri="flare"  />
+    <component className="flare.materials:Shader3D" name="flare.materials.Shader3D" uri="flare"  />
+    <component className="flare.physics.colliders:BoxCollider" name="flare.physics.colliders.BoxCollider" uri="flare"  />
+    <component className="flare.physics.colliders:Collider" name="flare.physics.colliders.Collider" uri="flare"  />
+    <component className="flare.physics.colliders:MeshCollider" name="flare.physics.colliders.MeshCollider" uri="flare"  />
+    <component className="flare.physics.colliders:RayCollider" name="flare.physics.colliders.RayCollider" uri="flare"  />
+    <component className="flare.physics.colliders:SphereCollider" name="flare.physics.colliders.SphereCollider" uri="flare"  />
+    <component className="flare.physics.geom:BVH" name="flare.physics.geom.BVH" uri="flare"  />
+    <component className="flare.physics.geom:Edge" name="flare.physics.geom.Edge" uri="flare"  />
+    <component className="flare.physics.geom:Triangle" name="flare.physics.geom.Triangle" uri="flare"  />
+    <component className="flare.physics.geom:Vertex" name="flare.physics.geom.Vertex" uri="flare"  />
+    <component className="flare.physics.test:AxisInfo" name="flare.physics.test.AxisInfo" uri="flare"  />
+    <component className="flare.physics.test:BoxBox" name="flare.physics.test.BoxBox" uri="flare"  />
+    <component className="flare.physics.test:BoxMesh" name="flare.physics.test.BoxMesh" uri="flare"  />
+    <component className="flare.physics.test:NullCollision" name="flare.physics.test.NullCollision" uri="flare"  />
+    <component className="flare.physics.test:RayBox" name="flare.physics.test.RayBox" uri="flare"  />
+    <component className="flare.physics.test:RayMesh" name="flare.physics.test.RayMesh" uri="flare"  />
+    <component className="flare.physics.test:RaySphere" name="flare.physics.test.RaySphere" uri="flare"  />
+    <component className="flare.physics.test:SAT3D" name="flare.physics.test.SAT3D" uri="flare"  />
+    <component className="flare.physics.test:SphereBox" name="flare.physics.test.SphereBox" uri="flare"  />
+    <component className="flare.physics.test:SphereMesh" name="flare.physics.test.SphereMesh" uri="flare"  />
+    <component className="flare.physics.test:SphereSphere" name="flare.physics.test.SphereSphere" uri="flare"  />
+    <component className="flare.physics:Broad" name="flare.physics.Broad" uri="flare"  />
+    <component className="flare.physics:Contact" name="flare.physics.Contact" uri="flare"  />
+    <component className="flare.physics:ContactData" name="flare.physics.ContactData" uri="flare"  />
+    <component className="flare.physics:IBroadPhase" name="flare.physics.IBroadPhase" uri="flare"  />
+    <component className="flare.physics:ICollision" name="flare.physics.ICollision" uri="flare"  />
+    <component className="flare.physics:IShape" name="flare.physics.IShape" uri="flare"  />
+    <component className="flare.physics:Physics" name="flare.physics.Physics" uri="flare"  />
+    <component className="flare.physics:SweepAndPrune" name="flare.physics.SweepAndPrune" uri="flare"  />
+    <component className="flare.primitives:Arrow" name="flare.primitives.Arrow" uri="flare"  />
+    <component className="flare.primitives:Box" name="flare.primitives.Box" uri="flare"  />
+    <component className="flare.primitives:Capsule" name="flare.primitives.Capsule" uri="flare"  />
+    <component className="flare.primitives:Cone" name="flare.primitives.Cone" uri="flare"  />
+    <component className="flare.primitives:Cross" name="flare.primitives.Cross" uri="flare"  />
+    <component className="flare.primitives:Cube" name="flare.primitives.Cube" uri="flare"  />
+    <component className="flare.primitives:Cylinder" name="flare.primitives.Cylinder" uri="flare"  />
+    <component className="flare.primitives:DebugCamera" name="flare.primitives.DebugCamera" uri="flare"  />
+    <component className="flare.primitives:DebugLight" name="flare.primitives.DebugLight" uri="flare"  />
+    <component className="flare.primitives:DebugShape" name="flare.primitives.DebugShape" uri="flare"  />
+    <component className="flare.primitives:DebugWireframe" name="flare.primitives.DebugWireframe" uri="flare"  />
+    <component className="flare.primitives:Dome" name="flare.primitives.Dome" uri="flare"  />
+    <component className="flare.primitives:Dot" name="flare.primitives.Dot" uri="flare"  />
+    <component className="flare.primitives:Dummy" name="flare.primitives.Dummy" uri="flare"  />
+    <component className="flare.primitives:HPlane" name="flare.primitives.HPlane" uri="flare"  />
+    <component className="flare.primitives:Plane" name="flare.primitives.Plane" uri="flare"  />
+    <component className="flare.primitives:Quad" name="flare.primitives.Quad" uri="flare"  />
+    <component className="flare.primitives:Radius" name="flare.primitives.Radius" uri="flare"  />
+    <component className="flare.primitives:SkyBox" name="flare.primitives.SkyBox" uri="flare"  />
+    <component className="flare.primitives:Sphere" name="flare.primitives.Sphere" uri="flare"  />
+    <component className="flare.primitives:Spring" name="flare.primitives.Spring" uri="flare"  />
+    <component className="flare.system:Device3D" name="flare.system.Device3D" uri="flare"  />
+    <component className="flare.system:ILibraryExternalItem" name="flare.system.ILibraryExternalItem" uri="flare"  />
+    <component className="flare.system:ILibraryItem" name="flare.system.ILibraryItem" uri="flare"  />
+    <component className="flare.system:Input3D" name="flare.system.Input3D" uri="flare"  />
+    <component className="flare.system:Library3D" name="flare.system.Library3D" uri="flare"  />
+    <component className="flare.utils:Matrix3DUtils" name="flare.utils.Matrix3DUtils" uri="flare"  />
+    <component className="flare.utils:Mesh3DUtils" name="flare.utils.Mesh3DUtils" uri="flare"  />
+    <component className="flare.utils:Pivot3DUtils" name="flare.utils.Pivot3DUtils" uri="flare"  />
+    <component className="flare.utils:Surface3DUtils" name="flare.utils.Surface3DUtils" uri="flare"  />
+    <component className="flare.utils:Texture3DUtils" name="flare.utils.Texture3DUtils" uri="flare"  />
+    <component className="flare.utils:Vector3DUtils" name="flare.utils.Vector3DUtils" uri="flare"  />
+    <component className="flare:Flare3D" name="flare.Flare3D" uri="flare"  />
+  </components>
+  <libraries>
+    <library path="library.swf">
+      <script name="flare/flsl/FLSL" mod="1371064286787" signatureChecksum="1712409314" >
+        <def id="flare.flsl:FLSL" /> 
+        <dep id="flare.flsl:FLSLEngine" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLScope" mod="1392347690152" signatureChecksum="4217255427" >
+        <def id="flare.flsl:FLSLScope" /> 
+        <dep id="flare.flsl:FLSLInput" type="e" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="e" /> 
+        <dep id="flare.flsl:FLSLEngine" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flare.flsl:FLSLSampler" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare.flsl:FLSLParam" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLFilter" mod="1392441283179" signatureChecksum="3685754209" >
+        <def id="flare.flsl:FLSLFilter" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="e" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="e" /> 
+        <dep id="flare.flsl:FLSLSampler" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:EventDispatcher" type="s" /> 
+        <dep id="flare.flsl:FLSLShader" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLScope" type="i" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SpecularMapFilter" mod="1375120690191" signatureChecksum="512349875" >
+        <def id="flare.materials.filters:SpecularMapFilter" /> 
+        <dep id="flare.materials.filters:SpecularMapFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLEngine" mod="1392409386573" signatureChecksum="2763570866" >
+        <def id="flare.flsl:FLSLEngine" /> 
+        <dep id="flare.flsl:FLSLScope" type="e" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flare.flsl:FLSLParam" type="e" /> 
+        <dep id="flare.flsl:FLSLError" type="e" /> 
+        <dep id="flare.flsl:FLSLInput" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="flare.flsl:FLSLSampler" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.flsl:FLSLRegister" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.flsl:FLSLProgram" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.flsl:FLSLScope" type="s" /> 
+        <dep id="flare.flsl:FLSLInput" type="s" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.flsl:FLSLSampler" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.flsl:FLSLRegister" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLParser" mod="1383943652056" signatureChecksum="2694470740" >
+        <def id="flare.flsl:FLSLParser" /> 
+        <dep id="flare.flsl:FLSLScope" type="e" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="e" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="flare.flsl:FLSLParam" type="e" /> 
+        <dep id="flare.flsl:FLSL" type="e" /> 
+        <dep id="flare.flsl:FLSLError" type="e" /> 
+        <dep id="flare.flsl:FLSLInput" type="e" /> 
+        <dep id="flare.flsl:FLSLToken" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="flare.flsl:FLSLSampler" type="e" /> 
+        <dep id="flash.display3D:Context3DStencilAction" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.display3D:Context3DCompareMode" type="e" /> 
+        <dep id="flare.flsl:FLSLProgram" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.flsl:FLSL" type="s" /> 
+        <dep id="flare.flsl:FLSLScope" type="s" /> 
+        <dep id="flare.flsl:FLSLToken" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLEngine" type="i" /> 
+      </script>
+      <script name="mx/core/FlexBitmap" mod="1303837772857" signatureChecksum="1023041752" >
+        <def id="mx.core:FlexBitmap" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="mx.utils:NameUtil" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+        <dep id="flash.display:Bitmap" type="i" /> 
+      </script>
+      <script name="mx/core/IFlexAsset" mod="1303837773029" signatureChecksum="3016954274" >
+        <def id="mx.core:IFlexAsset" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/Material3D" mod="1379677002160" signatureChecksum="1354341586" >
+        <def id="flare.materials:Material3D" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.display3D:Context3DCompareMode" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLMaterial" mod="1392767679276" signatureChecksum="2179751159" >
+        <def id="flare.flsl:FLSLMaterial" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.flsl:FLSLDisassembler" type="e" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="flare.flsl:FLSLShader" type="e" /> 
+        <dep id="flare.materials:NullMaterial" type="e" /> 
+        <dep id="flare.flsl:FLSLEngine" type="e" /> 
+        <dep id="flash.display3D:Context3DProgramType" type="e" /> 
+        <dep id="flare.flsl:FLSLSampler" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flare.flsl:FLSLProgram" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="flare.flsl:FLSLInput" type="s" /> 
+        <dep id="flare.flsl:FLSLShader" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.flsl:FLSLSampler" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.materials:Material3D" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLSampler" mod="1375454504199" signatureChecksum="3253355672" >
+        <def id="flare.flsl:FLSLSampler" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLTokenizer" mod="1353866693347" signatureChecksum="1101866247" >
+        <def id="flare.flsl:FLSLTokenizer" /> 
+        <dep id="flare.flsl:FLSLError" type="e" /> 
+        <dep id="flare.flsl:FLSLToken" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.flsl:FLSLToken" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Pivot3D" mod="1392925670145" signatureChecksum="991362144" >
+        <def id="flare.core:Pivot3D" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.basic:Scene3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.system:Input3D" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flare.core:IComponent" type="e" /> 
+        <dep id="flare.core:Label3D" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.core:IDrawable" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.core:IComponent" type="s" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="flare.core:Label3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="flare/core/IDrawable" mod="1341186108000" signatureChecksum="2499948948" >
+        <def id="flare.core:IDrawable" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Mesh3D" mod="1392925675708" signatureChecksum="3361049336" >
+        <def id="flare.core:Mesh3D" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.geom:Utils3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flare.events:MouseEvent3D" type="e" /> 
+        <dep id="flare.modifiers:Modifier" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.flsl:FLSLSampler" type="s" /> 
+        <dep id="flare.modifiers:Modifier" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.core:IDrawable" type="i" /> 
+      </script>
+      <script name="flare/primitives/Quad" mod="1350327636791" signatureChecksum="602707679" >
+        <def id="flare.primitives:Quad" /> 
+        <dep id="flare.materials:NullMaterial" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="mx/core/ByteArrayAsset" mod="1303837772279" signatureChecksum="2175025507" >
+        <def id="mx.core:ByteArrayAsset" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+        <dep id="mx.core:IFlexAsset" type="i" /> 
+        <dep id="flash.utils:ByteArray" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SelfColorFilter_flsl" mod="1371130660753" signatureChecksum="2782773170" >
+        <def id="flare.materials.filters:SelfColorFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/core/Lines3D" mod="1381637718469" signatureChecksum="2271012862" >
+        <def id="flare.core:Lines3D" /> 
+        <dep id="flare.core:Lines3D_flsl" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/primitives/Radius" mod="1386649521324" signatureChecksum="330190695" >
+        <def id="flare.primitives:Radius" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/primitives/Dot" mod="1341519256000" signatureChecksum="1433281273" >
+        <def id="flare.primitives:Dot" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.primitives:Radius" type="i" /> 
+      </script>
+      <script name="Logo_flsl" mod="1371130660117" signatureChecksum="439982115" >
+        <def id="Logo_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/FogFilter" mod="1367163580246" signatureChecksum="3632217071" >
+        <def id="flare.materials.filters:FogFilter" /> 
+        <dep id="flare.materials.filters:FogFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLRegister" mod="1366602250240" signatureChecksum="3239861209" >
+        <def id="flare.flsl:FLSLRegister" /> 
+        <dep id="flare.flsl:FLSLEngine" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/system/ILibraryItem" mod="1316723312000" signatureChecksum="1058610404" >
+        <def id="flare.system:ILibraryItem" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/system/ILibraryExternalItem" mod="1380919029892" signatureChecksum="1572690928" >
+        <def id="flare.system:ILibraryExternalItem" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="flare.system:ILibraryItem" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/LightMapFilter_flsl" mod="1371132692597" signatureChecksum="3930438914" >
+        <def id="flare.materials.filters:LightMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ColorFilter_flsl" mod="1371130661243" signatureChecksum="4173575798" >
+        <def id="flare.materials.filters:ColorFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/physics/ICollision" mod="1392144905645" signatureChecksum="150025033" >
+        <def id="flare.physics:ICollision" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/test/RayMesh" mod="1392146996875" signatureChecksum="3742846822" >
+        <def id="flare.physics.test:RayMesh" /> 
+        <dep id="flare.physics.geom:BVH" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.geom:Triangle" type="e" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="e" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="flare.physics.geom:BVH" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="s" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="mx/core/IAssetLayoutFeatures" mod="1303837772451" signatureChecksum="979826888" >
+        <def id="mx.core:IAssetLayoutFeatures" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="_bd31bd88ce331544ce3a5cc714ee51b0e4c3f9f2e90fe50c6205693c9838c590_flash_display_Sprite" mod="1393016249561" signatureChecksum="3174202009" >
+        <def id="_bd31bd88ce331544ce3a5cc714ee51b0e4c3f9f2e90fe50c6205693c9838c590_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="mx/core/mx_internal" mod="1303837772435" signatureChecksum="642982261" >
+        <def id="mx.core:mx_internal" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="mx/core/IRepeaterClient" mod="1303837771982" signatureChecksum="4267343100" >
+        <def id="mx.core:IRepeaterClient" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Boundings3D" mod="1371131565327" signatureChecksum="4046938255" >
+        <def id="flare.core:Boundings3D" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/IComponent" mod="1316723312000" signatureChecksum="3704827423" >
+        <def id="flare.core:IComponent" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLShader" mod="1369848377661" signatureChecksum="3462227057" >
+        <def id="flare.flsl:FLSLShader" /> 
+        <dep id="flare.flsl:FLSLEngine" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLScope" type="i" /> 
+      </script>
+      <script name="flare/core/ShadowProjector3D_ShadowPass" mod="1392783582470" signatureChecksum="1152628416" >
+        <def id="flare.core:ShadowProjector3D_ShadowPass" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/basic/Scene3D" mod="1393003324650" signatureChecksum="2188321006" >
+        <def id="flare.basic:Scene3D" /> 
+        <dep id="flare.materials.filters:LightFilter" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.display3D:Context3DRenderMode" type="e" /> 
+        <dep id="flare.loaders:ZF3DLoader" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.ui:MouseCursor" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.ui:ContextMenu" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="flash.ui:ContextMenuItem" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flash.events:EventPhase" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flare.primitives:Quad" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.collisions:MouseCollision" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="Logo_flsl" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flare.system:Input3D" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare:Flare3D" type="e" /> 
+        <dep id="Logo_Flare3DImage" type="e" /> 
+        <dep id="flare.loaders:Flare3DLoader" type="e" /> 
+        <dep id="flare.physics:Physics" type="e" /> 
+        <dep id="flash.display3D:Context3DClearMask" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flare.events:MouseEvent3D" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flare.materials:QuadMaterial" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.ui:Mouse" type="e" /> 
+        <dep id="flash.display3D:Context3DCompareMode" type="e" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="e" /> 
+        <dep id="flare.collisions:CollisionInfo" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flare.loaders:Flare3DLoader2" type="e" /> 
+        <dep id="flare.materials.filters:LightFilter" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flare.primitives:Quad" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.collisions:MouseCollision" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Stage3D" type="s" /> 
+        <dep id="flash.display3D.textures:TextureBase" type="s" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flare.physics:Physics" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flare.materials:QuadMaterial" type="s" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flare.collisions:CollisionInfo" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/basic/Viewer3D" mod="1380765298249" signatureChecksum="121528079" >
+        <def id="flare.basic:Viewer3D" /> 
+        <dep id="flash.events:EventPhase" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.system:Input3D" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.basic:Scene3D" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ColorTransformFilter_flsl" mod="1373999795941" signatureChecksum="522046686" >
+        <def id="flare.materials.filters:ColorTransformFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/NormalMapFilter_flsl" mod="1371132675916" signatureChecksum="2752364456" >
+        <def id="flare.materials.filters:NormalMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLInput" mod="1369843445912" signatureChecksum="2731291054" >
+        <def id="flare.flsl:FLSLInput" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/CubeMapFilter" mod="1367162664315" signatureChecksum="1637642308" >
+        <def id="flare.materials.filters:CubeMapFilter" /> 
+        <dep id="flare.materials.filters:CubeMapFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SelfColorFilter" mod="1367163615687" signatureChecksum="1260410650" >
+        <def id="flare.materials.filters:SelfColorFilter" /> 
+        <dep id="flare.materials.filters:SelfColorFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="mx/core/IFlexDisplayObject" mod="1303837773201" signatureChecksum="583207665" >
+        <def id="mx.core:IFlexDisplayObject" /> 
+        <dep id="flash.accessibility:AccessibilityProperties" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.geom:Transform" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="flash.display:IBitmapDrawable" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/test/RaySphere" mod="1392146996891" signatureChecksum="2872461640" >
+        <def id="flare.physics.test:RaySphere" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/primitives/DebugCamera" mod="1386901070492" signatureChecksum="1583300396" >
+        <def id="flare.primitives:DebugCamera" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/NullFilter_flsl" mod="1380507169712" signatureChecksum="1705621738" >
+        <def id="flare.materials.filters:NullFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/primitives/Sphere" mod="1386897600208" signatureChecksum="4146554229" >
+        <def id="flare.primitives:Sphere" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/PlanarMapFilter_flsl" mod="1374100281495" signatureChecksum="2009251686" >
+        <def id="flare.materials.filters:PlanarMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/loaders/Chunk" mod="1322700764000" signatureChecksum="2199605544" >
+        <def id="flare.loaders:Chunk" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.utils:ByteArray" type="i" /> 
+      </script>
+      <script name="flare/primitives/Cone" mod="1368368130437" signatureChecksum="2634899223" >
+        <def id="flare.primitives:Cone" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/modifiers/Modifier" mod="1386206119468" signatureChecksum="1346979106" >
+        <def id="flare.modifiers:Modifier" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLProgram" mod="1392163558697" signatureChecksum="1737232684" >
+        <def id="flare.flsl:FLSLProgram" /> 
+        <dep id="flare.flsl:FLSLInput" type="e" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="e" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="e" /> 
+        <dep id="flare.flsl:FLSLSampler" type="e" /> 
+        <dep id="flash.display3D:Context3DStencilAction" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.display3D:Context3DCompareMode" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="flare.flsl:FLSLParam" type="e" /> 
+        <dep id="flare.flsl:FLSLInput" type="s" /> 
+        <dep id="flare.flsl:FLSLMatrix" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.flsl:FLSLSampler" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="flare.flsl:FLSLSurface" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/IBroadPhase" mod="1392138259276" signatureChecksum="1519802576" >
+        <def id="flare.physics:IBroadPhase" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/SweepAndPrune" mod="1392140781758" signatureChecksum="1946577140" >
+        <def id="flare.physics:SweepAndPrune" /> 
+        <dep id="flare.physics:Physics" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.colliders:Collider" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics:ICollision" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:IBroadPhase" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/geom/Vertex" mod="1392144456447" signatureChecksum="2773822218" >
+        <def id="flare.physics.geom:Vertex" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.geom:Vector3D" type="i" /> 
+      </script>
+      <script name="flare/physics/IShape" mod="1392144194641" signatureChecksum="1302807192" >
+        <def id="flare.physics:IShape" /> 
+        <dep id="flare.physics.test:AxisInfo" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLDisassembler" mod="1372198750324" signatureChecksum="2870562369" >
+        <def id="flare.flsl:FLSLDisassembler" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/core/Frame3D" mod="1359030180891" signatureChecksum="3188808166" >
+        <def id="flare.core:Frame3D" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.geom:Matrix3D" type="i" /> 
+      </script>
+      <script name="flare/system/Library3D" mod="1380919045103" signatureChecksum="4285484181" >
+        <def id="flare.system:Library3D" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:ILibraryItem" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.system:ILibraryItem" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipErrorEvent" mod="1288987884000" signatureChecksum="1883984201" >
+        <def id="deng.fzip:FZipErrorEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="flare/physics/colliders/Collider" mod="1392924210709" signatureChecksum="2031984225" >
+        <def id="flare.physics.colliders:Collider" /> 
+        <dep id="flare.physics:Physics" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.physics.test:AxisInfo" type="s" /> 
+        <dep id="flare.physics:ContactData" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:IShape" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/colliders/MeshCollider" mod="1392349328505" signatureChecksum="2985326591" >
+        <def id="flare.physics.colliders:MeshCollider" /> 
+        <dep id="flare.utils:Pivot3DUtils" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.physics.geom:BVH" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.geom:Triangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.geom:Edge" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.physics.geom:Vertex" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.physics.geom:BVH" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.geom:Edge" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="flare.physics.geom:Vertex" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics.colliders:Collider" type="i" /> 
+      </script>
+      <script name="flare/primitives/Box" mod="1370448090716" signatureChecksum="3206641985" >
+        <def id="flare.primitives:Box" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/materials/Shader3D_shaders" mod="1392835531147" signatureChecksum="1788390641" >
+        <def id="flare.materials:Shader3D_shaders" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/TransformFilter" mod="1367163677620" signatureChecksum="1417625673" >
+        <def id="flare.materials.filters:TransformFilter" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="flare.flsl:FLSLShader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/physics/test/SphereSphere" mod="1392146995952" signatureChecksum="2084129726" >
+        <def id="flare.physics.test:SphereSphere" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/test/NullCollision" mod="1392146840012" signatureChecksum="1425426443" >
+        <def id="flare.physics.test:NullCollision" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/LightFilter" mod="1392925702895" signatureChecksum="1881076206" >
+        <def id="flare.materials.filters:LightFilter" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flare.materials.filters:LightFilter_DiskFilter" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flare.flsl:FLSLParam" type="e" /> 
+        <dep id="flare.materials.filters:LightFilter_flsl" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.core:ShadowProjector3D" type="s" /> 
+        <dep id="flare.flsl:FLSLShader" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/TextureMapFilter_flsl" mod="1373317179552" signatureChecksum="3428696794" >
+        <def id="flare.materials.filters:TextureMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/NullFilter" mod="1380507136570" signatureChecksum="2937750139" >
+        <def id="flare.materials.filters:NullFilter" /> 
+        <dep id="flare.materials.filters:NullFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/primitives/Cube" mod="1368368110021" signatureChecksum="2958391789" >
+        <def id="flare.primitives:Cube" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/AlphaMaskFilter_flsl" mod="1371130661180" signatureChecksum="1341898539" >
+        <def id="flare.materials.filters:AlphaMaskFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ColorMatrixFilter_flsl" mod="1371130661321" signatureChecksum="1745470771" >
+        <def id="flare.materials.filters:ColorMatrixFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/loaders/Collada" mod="1351715590250" signatureChecksum="2727354698" >
+        <def id="flare.loaders:Collada" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="deng/fzip/FZip" mod="1362932531387" signatureChecksum="2002209824" >
+        <def id="deng.fzip:FZip" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="deng.fzip:FZipEvent" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:HTTPStatusEvent" type="e" /> 
+        <dep id="deng.fzip:FZipErrorEvent" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="deng.fzip:FZipFile" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flash.utils:IDataOutput" type="s" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="flare/physics/geom/Edge" mod="1392143656325" signatureChecksum="2506508528" >
+        <def id="flare.physics.geom:Edge" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.geom:Vertex" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.geom:Vector3D" type="i" /> 
+      </script>
+      <script name="flare/utils/Texture3DUtils" mod="1392923434926" signatureChecksum="866735102" >
+        <def id="flare.utils:Texture3DUtils" /> 
+        <dep id="flash.filters:ShaderFilter" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:Shader" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flare.utils:Texture3DUtils_NormalMap" type="e" /> 
+        <dep id="flash.filters:ShaderFilter" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:Shader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/NullMaterial" mod="1349756047555" signatureChecksum="3320530231" >
+        <def id="flare.materials:NullMaterial" /> 
+        <dep id="flare.materials:NullMaterial_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="i" /> 
+      </script>
+      <script name="flare/events/MouseEvent3D" mod="1319726784000" signatureChecksum="1909762960" >
+        <def id="flare.events:MouseEvent3D" /> 
+        <dep id="flare.collisions:CollisionInfo" type="e" /> 
+        <dep id="flare.collisions:CollisionInfo" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="flare/primitives/DebugLight" mod="1366480170367" signatureChecksum="2927843712" >
+        <def id="flare.primitives:DebugLight" /> 
+        <dep id="flare.core:Lines3D" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.core:Lines3D" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.core:IDrawable" type="i" /> 
+      </script>
+      <script name="flare/loaders/SWFLoader" mod="1386817396343" signatureChecksum="3109065054" >
+        <def id="flare.loaders:SWFLoader" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/physics/Contact" mod="1392178628946" signatureChecksum="1499313475" >
+        <def id="flare.physics:Contact" /> 
+        <dep id="flare.physics:Physics" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.geom:Edge" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/AlphaMaskFilter" mod="1371065718675" signatureChecksum="697078261" >
+        <def id="flare.materials.filters:AlphaMaskFilter" /> 
+        <dep id="flare.materials.filters:AlphaMaskFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/loaders/Flare3DLoaderMaterial" mod="1384279223900" signatureChecksum="2574648857" >
+        <def id="flare.loaders:Flare3DLoaderMaterial" /> 
+        <dep id="flare.materials.filters:ColorFilter" type="e" /> 
+        <dep id="flare.materials.filters:TextureMapFilter" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flare.materials.filters:PlanarMapFilter" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="flare.loaders:Chunk" type="e" /> 
+        <dep id="flare.materials.filters:EnvironmentMapFilter" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.materials.filters:TextureMapFilter" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.loaders:Chunk" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/QuadMaterial_flsl" mod="1373312438098" signatureChecksum="3907693793" >
+        <def id="flare.materials:QuadMaterial_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/PlanarMapFilter" mod="1374100230652" signatureChecksum="2640600297" >
+        <def id="flare.materials.filters:PlanarMapFilter" /> 
+        <dep id="flare.materials.filters:PlanarMapFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/core/MeshBatch3D_BatchFilter" mod="1391527645123" signatureChecksum="3227627912" >
+        <def id="flare.core:MeshBatch3D_BatchFilter" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/NullMaterial_flsl" mod="1371130660259" signatureChecksum="553299264" >
+        <def id="flare.materials:NullMaterial_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/utils/Mesh3DUtils" mod="1392925678270" signatureChecksum="400259224" >
+        <def id="flare.utils:Mesh3DUtils" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/FogFilter_flsl" mod="1371130661829" signatureChecksum="228962597" >
+        <def id="flare.materials.filters:FogFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/utils/Surface3DUtils" mod="1392767913673" signatureChecksum="493396815" >
+        <def id="flare.utils:Surface3DUtils" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.core:Poly3D" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/LightFilter_flsl" mod="1392340404932" signatureChecksum="1825814328" >
+        <def id="flare.materials.filters:LightFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/core/Easing3D" mod="1317217144000" signatureChecksum="2034303372" >
+        <def id="flare.core:Easing3D" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/loaders/ByteArrayLoader" mod="1380919052911" signatureChecksum="1947108204" >
+        <def id="flare.loaders:ByteArrayLoader" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/physics/geom/BVH" mod="1392143398630" signatureChecksum="3303910423" >
+        <def id="flare.physics.geom:BVH" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.physics.geom:Triangle" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.geom:Vertex" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/TextureMapFilter" mod="1392339847238" signatureChecksum="269215614" >
+        <def id="flare.materials.filters:TextureMapFilter" /> 
+        <dep id="flare.materials.filters:TextureMapFilter_flsl" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/materials/Shader3D" mod="1392409426506" signatureChecksum="1618108600" >
+        <def id="flare.materials:Shader3D" /> 
+        <dep id="flare.materials:Shader3D_topLevel" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.flsl:FLSLShader" type="e" /> 
+        <dep id="flare.materials:Shader3D_shaders" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.materials.filters:TransformFilter" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.materials.filters:SkinTransformFilter" type="e" /> 
+        <dep id="flare.flsl:FLSLProgram" type="e" /> 
+        <dep id="flare.materials.filters:LightFilter" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.flsl:FLSLScope" type="s" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flare.flsl:FLSLShader" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.flsl:FLSLProgram" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLCompiler" mod="1349846707308" signatureChecksum="4170724743" >
+        <def id="flare.flsl:FLSLCompiler" /> 
+        <dep id="flare.flsl:FLSLEngine" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flare.flsl:FLSLTokenizer" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.flsl:FLSLParser" type="e" /> 
+        <dep id="flare.flsl:FLSLToken" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/primitives/Arrow" mod="1386547033700" signatureChecksum="1189230251" >
+        <def id="flare.primitives:Arrow" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/core/MeshBatch3D" mod="1392440447105" signatureChecksum="2910048073" >
+        <def id="flare.core:MeshBatch3D" /> 
+        <dep id="flare.flsl:FLSLFilter" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.core:MeshBatch3D_BatchFilter" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.core:IDrawable" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/NormalMapFilter" mod="1375388321271" signatureChecksum="4274703056" >
+        <def id="flare.materials.filters:NormalMapFilter" /> 
+        <dep id="flare.materials.filters:NormalMapFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/core/Label3D" mod="1363377464548" signatureChecksum="1079266001" >
+        <def id="flare.core:Label3D" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/colliders/BoxCollider" mod="1392181735059" signatureChecksum="2130311870" >
+        <def id="flare.physics.colliders:BoxCollider" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.test:AxisInfo" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics.colliders:Collider" type="i" /> 
+      </script>
+      <script name="mx/core/ILayoutDirectionElement" mod="1303837772560" signatureChecksum="559366607" >
+        <def id="mx.core:ILayoutDirectionElement" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/test/SphereMesh" mod="1392146996916" signatureChecksum="2672383750" >
+        <def id="flare.physics.test:SphereMesh" /> 
+        <dep id="flare.physics.geom:BVH" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.geom:Triangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="e" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="flare.physics.geom:BVH" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.geom:Edge" type="s" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="s" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipEvent" mod="1288987884000" signatureChecksum="2720030979" >
+        <def id="deng.fzip:FZipEvent" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="flare/Flare3D" mod="1358191677373" signatureChecksum="399060818" >
+        <def id="flare:Flare3D" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/utils/Texture3DUtils_NormalMap" mod="1316702216000" signatureChecksum="2578621635" >
+        <def id="flare.utils:Texture3DUtils_NormalMap" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ReflectionMapFilter_flsl" mod="1371130660449" signatureChecksum="2477705588" >
+        <def id="flare.materials.filters:ReflectionMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/loaders/Flare3DLoader3" mod="1380919095794" signatureChecksum="2579816748" >
+        <def id="flare.loaders:Flare3DLoader3" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.core:Shape3D" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:CompressionAlgorithm" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.modifiers:SkinModifier" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/collisions/CollisionInfo" mod="1346158998752" signatureChecksum="1161980711" >
+        <def id="flare.collisions:CollisionInfo" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/loaders/Flare3DLoader2" mod="1380919084308" signatureChecksum="2543968554" >
+        <def id="flare.loaders:Flare3DLoader2" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.core:Shape3D" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:CompressionAlgorithm" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.modifiers:SkinModifier" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/loaders/Flare3DLoader1" mod="1384279805648" signatureChecksum="1953169185" >
+        <def id="flare.loaders:Flare3DLoader1" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="flare.core:Spline3D" type="e" /> 
+        <dep id="flare.core:Label3D" type="e" /> 
+        <dep id="flare.loaders:Chunk" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:GradientType" type="e" /> 
+        <dep id="flash.display:InterpolationMethod" type="e" /> 
+        <dep id="flash.display:SpreadMethod" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flare.modifiers:VertexAnimationModifier" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.materials.filters:ColorFilter" type="e" /> 
+        <dep id="flare.loaders:Flare3DLoaderMaterial" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="flare.core:Shape3D" type="e" /> 
+        <dep id="flare.core:Knot3D" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.utils:Mesh3DUtils" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="flare.core:Spline3D" type="s" /> 
+        <dep id="flare.core:Label3D" type="s" /> 
+        <dep id="flare.loaders:Chunk" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flare.modifiers:SkinModifier" type="s" /> 
+        <dep id="flare.modifiers:VertexAnimationModifier" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flare.core:Shape3D" type="s" /> 
+        <dep id="flare.core:Knot3D" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SpecularFilter_flsl" mod="1371130660812" signatureChecksum="2247802358" >
+        <def id="flare.materials.filters:SpecularFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipLibrary" mod="1288987884000" signatureChecksum="3517429988" >
+        <def id="deng.fzip:FZipLibrary" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="ReferenceError" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="deng.fzip:FZipEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="deng.fzip:FZipErrorEvent" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="ReferenceError" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="deng.fzip:FZip" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="deng.fzip:FZipEvent" type="s" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="flare/primitives/Capsule" mod="1368462443362" signatureChecksum="3438768587" >
+        <def id="flare.primitives:Capsule" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/primitives/Dome" mod="1377607690936" signatureChecksum="514082180" >
+        <def id="flare.primitives:Dome" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLError" mod="1349846825851" signatureChecksum="4116919320" >
+        <def id="flare.flsl:FLSLError" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Error" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SkinTransformFilter" mod="1374689611630" signatureChecksum="2673238609" >
+        <def id="flare.materials.filters:SkinTransformFilter" /> 
+        <dep id="flare.flsl:FLSLShader" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/primitives/DebugShape" mod="1361997840548" signatureChecksum="2346470647" >
+        <def id="flare.primitives:DebugShape" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.core:Spline3D" type="s" /> 
+        <dep id="flare.core:Shape3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/primitives/Cylinder" mod="1345233898249" signatureChecksum="2476757951" >
+        <def id="flare.primitives:Cylinder" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.primitives:Cone" type="i" /> 
+      </script>
+      <script name="flare/primitives/DebugWireframe" mod="1364677769426" signatureChecksum="2909425840" >
+        <def id="flare.primitives:DebugWireframe" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/primitives/HPlane" mod="1385350238539" signatureChecksum="3523950143" >
+        <def id="flare.primitives:HPlane" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+        <dep id="flare.core:IDrawable" type="i" /> 
+      </script>
+      <script name="flare/collisions/MouseCollision" mod="1371770254029" signatureChecksum="2285880884" >
+        <def id="flare.collisions:MouseCollision" /> 
+        <dep id="flare.collisions:RayCollision" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.collisions:CollisionInfo" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.collisions:RayCollision" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.collisions:CollisionInfo" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SpecularMapFilter_flsl" mod="1371130660882" signatureChecksum="306889899" >
+        <def id="flare.materials.filters:SpecularMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/physics/Broad" mod="1392140802971" signatureChecksum="3887882882" >
+        <def id="flare.physics:Broad" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.colliders:Collider" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics:ICollision" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:IBroadPhase" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/primitives/Cross" mod="1380681783540" signatureChecksum="1734755621" >
+        <def id="flare.primitives:Cross" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/core/Camera3D" mod="1392997780825" signatureChecksum="1557627233" >
+        <def id="flare.core:Camera3D" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+      </script>
+      <script name="flare/collisions/RayCollision" mod="1392766432583" signatureChecksum="3523655043" >
+        <def id="flare.collisions:RayCollision" /> 
+        <dep id="flare.core:Pivot3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flare.collisions:CollisionInfo" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.collisions:CollisionInfo" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/test/RayBox" mod="1392152512681" signatureChecksum="3885123276" >
+        <def id="flare.physics.test:RayBox" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/utils/Vector3DUtils" mod="1336491534000" signatureChecksum="980844330" >
+        <def id="flare.utils:Vector3DUtils" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Lines3D_flsl" mod="1371332472847" signatureChecksum="2034736193" >
+        <def id="flare.core:Lines3D_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/physics/Physics" mod="1392924754135" signatureChecksum="2613253668" >
+        <def id="flare.physics:Physics" /> 
+        <dep id="flare.physics.test:SphereBox" type="e" /> 
+        <dep id="flare.physics.test:RayMesh" type="e" /> 
+        <dep id="flare.physics.colliders:Collider" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.physics.test:SphereMesh" type="e" /> 
+        <dep id="flare.physics.test:RayBox" type="e" /> 
+        <dep id="flare.physics:ICollision" type="e" /> 
+        <dep id="flare.physics.test:SphereSphere" type="e" /> 
+        <dep id="flare.physics:SweepAndPrune" type="e" /> 
+        <dep id="flare.physics.test:BoxMesh" type="e" /> 
+        <dep id="flare.physics.test:NullCollision" type="e" /> 
+        <dep id="flare.physics.test:RaySphere" type="e" /> 
+        <dep id="flare.physics:ContactData" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.test:BoxBox" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="e" /> 
+        <dep id="flare.physics:ContactData" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics:ICollision" type="s" /> 
+        <dep id="flare.physics:IBroadPhase" type="s" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/primitives/Dummy" mod="1352061278854" signatureChecksum="3641330082" >
+        <def id="flare.primitives:Dummy" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/physics/test/BoxBox" mod="1392147095536" signatureChecksum="959335194" >
+        <def id="flare.physics.test:BoxBox" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.test:SAT3D" type="e" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/colliders/SphereCollider" mod="1392181735072" signatureChecksum="649616392" >
+        <def id="flare.physics.colliders:SphereCollider" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics.colliders:Collider" type="i" /> 
+      </script>
+      <script name="flare/collisions/SphereCollision" mod="1356611741166" signatureChecksum="2216815048" >
+        <def id="flare.collisions:SphereCollision" /> 
+        <dep id="flare.core:Pivot3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flare.collisions:CollisionInfo" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.collisions:CollisionInfo" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/primitives/SkyBox" mod="1375308673333" signatureChecksum="951254442" >
+        <def id="flare.primitives:SkyBox" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.primitives:SkyBox_data" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="flare/loaders/ColladaLoader" mod="1380919068653" signatureChecksum="735698741" >
+        <def id="flare.loaders:ColladaLoader" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.materials.filters:SpecularMapFilter" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.materials.filters:ColorFilter" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flare.materials.filters:TextureMapFilter" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flare.utils:Mesh3DUtils" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flare.modifiers:Modifier" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.modifiers:SkinModifier" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="flare.loaders:Collada" type="n" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/VertexColorFilter_flsl" mod="1371219953702" signatureChecksum="957138514" >
+        <def id="flare.materials.filters:VertexColorFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/utils/Pivot3DUtils" mod="1392925665583" signatureChecksum="3714646541" >
+        <def id="flare.utils:Pivot3DUtils" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flare.core:Label3D" type="e" /> 
+        <dep id="flare.core:Shape3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.modifiers:SkinModifier" type="s" /> 
+        <dep id="flare.core:Label3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/CubeMapFilter_flsl" mod="1373926897844" signatureChecksum="1079425611" >
+        <def id="flare.materials.filters:CubeMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/utils/Matrix3DUtils" mod="1391454718358" signatureChecksum="1115427904" >
+        <def id="flare.utils:Matrix3DUtils" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Orientation3D" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/TextureMaskFilter" mod="1373316252190" signatureChecksum="4214126524" >
+        <def id="flare.materials.filters:TextureMaskFilter" /> 
+        <dep id="flare.materials.filters:TextureMaskFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/EnvironmentMapFilter" mod="1349924910671" signatureChecksum="2070788907" >
+        <def id="flare.materials.filters:EnvironmentMapFilter" /> 
+        <dep id="flare.materials.filters:EnvironmentMapFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/primitives/Plane" mod="1368202092138" signatureChecksum="1627880075" >
+        <def id="flare.primitives:Plane" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Mesh3D" type="i" /> 
+      </script>
+      <script name="mx/utils/NameUtil" mod="1303837778779" signatureChecksum="1851228527" >
+        <def id="mx.utils:NameUtil" /> 
+        <dep id="mx.core:IRepeaterClient" type="e" /> 
+        <dep id="SecurityError" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="SecurityError" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/ContactData" mod="1392137319011" signatureChecksum="1092567631" >
+        <def id="flare.physics:ContactData" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ReflectionMapFilter" mod="1367163607094" signatureChecksum="3373428682" >
+        <def id="flare.materials.filters:ReflectionMapFilter" /> 
+        <dep id="flare.materials.filters:ReflectionMapFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLSurface" mod="1375454519340" signatureChecksum="3905891355" >
+        <def id="flare.flsl:FLSLSurface" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/FlipNormalsFilter" mod="1367163570113" signatureChecksum="1944007260" >
+        <def id="flare.materials.filters:FlipNormalsFilter" /> 
+        <dep id="flare.materials.filters:FlipNormalsFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/primitives/SkyBox_data" mod="1372880438829" signatureChecksum="2916917530" >
+        <def id="flare.primitives:SkyBox_data" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/core/Particles3D" mod="1392917869392" signatureChecksum="1482431707" >
+        <def id="flare.core:Particles3D" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.display:BitmapDataChannel" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:GradientType" type="e" /> 
+        <dep id="flash.display:InterpolationMethod" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flare.core:Particles3D_data" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:ParticleInit3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.core:ParticleInit3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.core:IDrawable" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/LightFilter_DiskFilter" mod="1373315595357" signatureChecksum="2183446782" >
+        <def id="flare.materials.filters:LightFilter_DiskFilter" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/LightMapFilter" mod="1367163598486" signatureChecksum="1341931037" >
+        <def id="flare.materials.filters:LightMapFilter" /> 
+        <dep id="flare.materials.filters:LightMapFilter_flsl" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/core/Surface3D" mod="1392767857866" signatureChecksum="880312633" >
+        <def id="flare.core:Surface3D" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display3D:IndexBuffer3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.display3D:VertexBuffer3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="flare/physics/geom/Triangle" mod="1392144304548" signatureChecksum="3382250618" >
+        <def id="flare.physics.geom:Triangle" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.physics.geom:Edge" type="e" /> 
+        <dep id="flare.physics.test:AxisInfo" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.geom:Edge" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.physics.geom:Vertex" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:IShape" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Particles3D_data" mod="1390481942963" signatureChecksum="640001536" >
+        <def id="flare.core:Particles3D_data" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="mx/core/BitmapAsset" mod="1303837772389" signatureChecksum="251402367" >
+        <def id="mx.core:BitmapAsset" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="mx.core:IAssetLayoutFeatures" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.system:ApplicationDomain" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:mx_internal" type="n" /> 
+        <dep id="mx.core:IFlexAsset" type="i" /> 
+        <dep id="mx.core:FlexBitmap" type="i" /> 
+        <dep id="mx.core:ILayoutDirectionElement" type="i" /> 
+        <dep id="mx.core:IFlexDisplayObject" type="i" /> 
+      </script>
+      <script name="flare/primitives/Spring" mod="1386551996994" signatureChecksum="2437766701" >
+        <def id="flare.primitives:Spring" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Lines3D" type="i" /> 
+      </script>
+      <script name="flare/materials/Shader3D_topLevel" mod="1392835528368" signatureChecksum="96316793" >
+        <def id="flare.materials:Shader3D_topLevel" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/core/ParticleInit3D" mod="1354685367705" signatureChecksum="741229709" >
+        <def id="flare.core:ParticleInit3D" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/EnvironmentMapFilter_flsl" mod="1371130661665" signatureChecksum="172477619" >
+        <def id="flare.materials.filters:EnvironmentMapFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/physics/test/SAT3D" mod="1392144331364" signatureChecksum="2709830967" >
+        <def id="flare.physics.test:SAT3D" /> 
+        <dep id="flare.physics.test:AxisInfo" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.physics.colliders:Collider" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.physics.geom:Triangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="flare.physics:IShape" type="s" /> 
+        <dep id="flare.physics.test:AxisInfo" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Poly3D" mod="1352798878106" signatureChecksum="4277640215" >
+        <def id="flare.core:Poly3D" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/physics/test/BoxMesh" mod="1392152508907" signatureChecksum="2135775454" >
+        <def id="flare.physics.test:BoxMesh" /> 
+        <dep id="flare.physics.geom:BVH" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="e" /> 
+        <dep id="flare.physics.test:SAT3D" type="e" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="e" /> 
+        <dep id="flare.physics.geom:BVH" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.geom:Triangle" type="s" /> 
+        <dep id="flare.physics.geom:Edge" type="s" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="s" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="s" /> 
+        <dep id="flare.physics.geom:Vertex" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/TextureMaskFilter_flsl" mod="1373315971339" signatureChecksum="2550842733" >
+        <def id="flare.materials.filters:TextureMaskFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLToken" mod="1348154886436" signatureChecksum="438544679" >
+        <def id="flare.flsl:FLSLToken" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/modifiers/SkinModifier" mod="1382493718123" signatureChecksum="3016719820" >
+        <def id="flare.modifiers:SkinModifier" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="flare.utils:Surface3DUtils" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="e" /> 
+        <dep id="flare.core:Pivot3D" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.core:Poly3D" type="s" /> 
+        <dep id="flare.core:Label3D" type="s" /> 
+        <dep id="flash.events:EventDispatcher" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="flare.modifiers:Modifier" type="i" /> 
+      </script>
+      <script name="flare/modifiers/VertexAnimationModifier" mod="1341239412000" signatureChecksum="3975269792" >
+        <def id="flare.modifiers:VertexAnimationModifier" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.modifiers:Modifier" type="i" /> 
+      </script>
+      <script name="flare/physics/test/SphereBox" mod="1392152510729" signatureChecksum="15090845" >
+        <def id="flare.physics.test:SphereBox" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="e" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="e" /> 
+        <dep id="flare.physics:Contact" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="s" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="s" /> 
+        <dep id="flare.physics:Contact" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics:ICollision" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ColorFilter" mod="1367163548631" signatureChecksum="63406915" >
+        <def id="flare.materials.filters:ColorFilter" /> 
+        <dep id="flare.materials.filters:ColorFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLMatrix" mod="1373984634386" signatureChecksum="3539809804" >
+        <def id="flare.flsl:FLSLMatrix" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="flare/core/Light3D" mod="1373997747226" signatureChecksum="1733159689" >
+        <def id="flare.core:Light3D" /> 
+        <dep id="flash.display:GradientType" type="e" /> 
+        <dep id="flare.materials.filters:LightFilter" type="e" /> 
+        <dep id="flash.display:InterpolationMethod" type="e" /> 
+        <dep id="flash.display:SpreadMethod" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+      </script>
+      <script name="flare/core/Shape3D" mod="1379043884336" signatureChecksum="2483656890" >
+        <def id="flare.core:Shape3D" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.core:Spline3D" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.core:Spline3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+      </script>
+      <script name="flare/flsl/FLSLParam" mod="1374277766623" signatureChecksum="1520983775" >
+        <def id="flare.flsl:FLSLParam" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSL" type="i" /> 
+      </script>
+      <script name="Logo_Flare3DImage" mod="1337195950027" signatureChecksum="2545974436" >
+        <def id="Logo_Flare3DImage" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:BitmapAsset" type="i" /> 
+      </script>
+      <script name="flare/loaders/Flare3DLoader" mod="1380921697156" signatureChecksum="3432033360" >
+        <def id="flare.loaders:Flare3DLoader" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/core/Knot3D" mod="1316723312000" signatureChecksum="671827605" >
+        <def id="flare.core:Knot3D" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.geom:Vector3D" type="i" /> 
+      </script>
+      <script name="flare/materials/QuadMaterial" mod="1374036776216" signatureChecksum="1340821612" >
+        <def id="flare.materials:QuadMaterial" /> 
+        <dep id="flare.materials:QuadMaterial_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="i" /> 
+      </script>
+      <script name="flare/loaders/ZF3DLoader" mod="1392925685255" signatureChecksum="2884435761" >
+        <def id="flare.loaders:ZF3DLoader" /> 
+        <dep id="flare.materials.filters:SpecularMapFilter" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flare.basic:Scene3D" type="e" /> 
+        <dep id="flare.core:Particles3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flare.physics.colliders:Collider" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials.filters:NormalMapFilter" type="e" /> 
+        <dep id="flare.core:Frame3D" type="e" /> 
+        <dep id="flare.system:Library3D" type="e" /> 
+        <dep id="flare.core:Label3D" type="e" /> 
+        <dep id="flare.physics.colliders:BoxCollider" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flare.materials.filters:LightMapFilter" type="e" /> 
+        <dep id="flare.materials.filters:ColorTransformFilter" type="e" /> 
+        <dep id="flare.core:Surface3D" type="e" /> 
+        <dep id="flare.physics.colliders:MeshCollider" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.materials.filters:CubeMapFilter" type="e" /> 
+        <dep id="flare.physics.colliders:RayCollider" type="e" /> 
+        <dep id="flare.materials.filters:AlphaMaskFilter" type="e" /> 
+        <dep id="flare.core:Camera3D" type="e" /> 
+        <dep id="flare.materials.filters:FogFilter" type="e" /> 
+        <dep id="flare.materials.filters:SelfColorFilter" type="e" /> 
+        <dep id="flash.net:URLStream" type="e" /> 
+        <dep id="flare.materials.filters:PlanarMapFilter" type="e" /> 
+        <dep id="flash.display:BlendMode" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flare.physics.colliders:SphereCollider" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.core:Spline3D" type="e" /> 
+        <dep id="flare.materials.filters:ColorMatrixFilter" type="e" /> 
+        <dep id="flare.materials.filters:VertexColorFilter" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.modifiers:SkinModifier" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flare.loaders:ByteArrayLoader" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flare.materials.filters:ColorFilter" type="e" /> 
+        <dep id="flare.core:Boundings3D" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flare.core:Light3D" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flare.materials.filters:TextureMapFilter" type="e" /> 
+        <dep id="deng.fzip:FZip" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="flare.materials.filters:EnvironmentMapFilter" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare.core:Shape3D" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="flare.core:Knot3D" type="e" /> 
+        <dep id="flare.core:ShadowProjector3D" type="e" /> 
+        <dep id="flare.materials.filters:ReflectionMapFilter" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="flare.materials.filters:SpecularFilter" type="e" /> 
+        <dep id="flare.materials.filters:SkinTransformFilter" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.materials.filters:FlipNormalsFilter" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.core:Particles3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flare.physics.colliders:Collider" type="s" /> 
+        <dep id="flare.core:Frame3D" type="s" /> 
+        <dep id="flare.system:Library3D" type="s" /> 
+        <dep id="flare.core:Spline3D" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.flsl:FLSLSampler" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flare.modifiers:SkinModifier" type="s" /> 
+        <dep id="flare.loaders:ByteArrayLoader" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.core:Boundings3D" type="s" /> 
+        <dep id="flare.flsl:FLSLFilter" type="s" /> 
+        <dep id="flare.core:Light3D" type="s" /> 
+        <dep id="flash.net:URLStream" type="s" /> 
+        <dep id="deng.fzip:FZip" type="s" /> 
+        <dep id="flare.materials.filters:PlanarMapFilter" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flare.flsl:FLSLParam" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flare.core:Shape3D" type="s" /> 
+        <dep id="flare.core:Knot3D" type="s" /> 
+        <dep id="flare.core:ShadowProjector3D" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="deng.fzip:FZipFile" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Pivot3D" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/core/ShadowProjector3D_DepthPass" mod="1374608573087" signatureChecksum="139376409" >
+        <def id="flare.core:ShadowProjector3D_DepthPass" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/FlipNormalsFilter_flsl" mod="1371130661745" signatureChecksum="886686950" >
+        <def id="flare.materials.filters:FlipNormalsFilter_flsl" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="mx.core:ByteArrayAsset" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ColorTransformFilter" mod="1375115207000" signatureChecksum="1588547736" >
+        <def id="flare.materials.filters:ColorTransformFilter" /> 
+        <dep id="flare.materials.filters:ColorTransformFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="deng/utils/ChecksumUtil" mod="1288987884000" signatureChecksum="3478732995" >
+        <def id="deng.utils:ChecksumUtil" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Texture3D" mod="1392648472409" signatureChecksum="1806503626" >
+        <def id="flare.core:Texture3D" /> 
+        <dep id="flash.display3D.textures:Texture" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:ImageDecodingPolicy" type="e" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.display3D.textures:TextureBase" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.display3D.textures:CubeTexture" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare.utils:Texture3DUtils" type="e" /> 
+        <dep id="flash.display3D:Context3DTextureFormat" type="e" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.display3D.textures:TextureBase" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="flare.system:ILibraryExternalItem" type="i" /> 
+      </script>
+      <script name="flare/physics/colliders/RayCollider" mod="1392181735080" signatureChecksum="2907073980" >
+        <def id="flare.physics.colliders:RayCollider" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.physics.colliders:Collider" type="i" /> 
+      </script>
+      <script name="flare/system/Input3D" mod="1384790605741" signatureChecksum="863535046" >
+        <def id="flare.system:Input3D" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/system/Device3D" mod="1392416181462" signatureChecksum="985239879" >
+        <def id="flare.system:Device3D" /> 
+        <dep id="flash.display3D:Context3DTriangleFace" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display3D.textures:TextureBase" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.display3D:Context3D" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display3D.textures:TextureBase" type="s" /> 
+        <dep id="flash.display3D:Program3D" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.materials:Material3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/Spline3D" mod="1379043918256" signatureChecksum="3452530327" >
+        <def id="flare.core:Spline3D" /> 
+        <dep id="flare.core:Knot3D" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.utils:Vector3DUtils" type="e" /> 
+        <dep id="flare.core:Knot3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/ColorMatrixFilter" mod="1367163555446" signatureChecksum="255811047" >
+        <def id="flare.materials.filters:ColorMatrixFilter" /> 
+        <dep id="flare.materials.filters:ColorMatrixFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/VertexColorFilter" mod="1371219016227" signatureChecksum="715146450" >
+        <def id="flare.materials.filters:VertexColorFilter" /> 
+        <dep id="flare.materials.filters:VertexColorFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BlendMode" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="flare/physics/test/AxisInfo" mod="1392146175907" signatureChecksum="538192488" >
+        <def id="flare.physics.test:AxisInfo" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="flare/core/ShadowProjector3D" mod="1392658148178" signatureChecksum="3681343107" >
+        <def id="flare.core:ShadowProjector3D" /> 
+        <dep id="flare.system:Device3D" type="e" /> 
+        <dep id="flare.materials.filters:TextureMapFilter" type="e" /> 
+        <dep id="flash.geom:Vector3D" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flare.materials:Shader3D" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="e" /> 
+        <dep id="flare.core:ShadowProjector3D_DepthPass" type="e" /> 
+        <dep id="flare.modifiers:Modifier" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flare.core:ShadowProjector3D_ShadowPass" type="e" /> 
+        <dep id="flash.geom:Matrix3D" type="e" /> 
+        <dep id="flare.materials:Material3D" type="e" /> 
+        <dep id="flare.utils:Matrix3DUtils" type="e" /> 
+        <dep id="flare.core:Texture3D" type="e" /> 
+        <dep id="flare.core:Mesh3D" type="e" /> 
+        <dep id="flare.core:Camera3D" type="s" /> 
+        <dep id="flare.basic:Scene3D" type="s" /> 
+        <dep id="flash.geom:Vector3D" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flare.materials:Shader3D" type="s" /> 
+        <dep id="flash.display3D:Context3DBlendFactor" type="s" /> 
+        <dep id="flare.flsl:FLSLMaterial" type="s" /> 
+        <dep id="flare.core:Pivot3D" type="s" /> 
+        <dep id="flare.core:Surface3D" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix3D" type="s" /> 
+        <dep id="flare.core:Mesh3D" type="s" /> 
+        <dep id="flare.core:Texture3D" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.core:Light3D" type="i" /> 
+      </script>
+      <script name="flare/materials/filters/SpecularFilter" mod="1375120437340" signatureChecksum="249452818" >
+        <def id="flare.materials.filters:SpecularFilter" /> 
+        <dep id="flare.materials.filters:SpecularFilter_flsl" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flare.flsl:FLSLFilter" type="i" /> 
+      </script>
+      <script name="deng/fzip/FZipFile" mod="1288987884000" signatureChecksum="1048463673" >
+        <def id="deng.fzip:FZipFile" /> 
+        <dep id="flash.utils:describeType" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.utils:Endian" type="e" /> 
+        <dep id="deng.fzip:FZip" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="deng.utils:ChecksumUtil" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="Date" type="s" /> 
+        <dep id="flash.utils:IDataOutput" type="s" /> 
+        <dep id="flash.utils:IDataInput" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <keep-as3-metadata>
+        <metadata name="Transient" />
+        <metadata name="Bindable" />
+        <metadata name="ChangeEvent" />
+        <metadata name="Managed" />
+        <metadata name="NonCommittingChangeEvent" />
+      </keep-as3-metadata>
+      <digests>
+        <digest type="SHA-256" signed="false" value="f7f1c1dd3d26447786359b745689d9e651192041b59f82d916c269170b2e878e"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>
